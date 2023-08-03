@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+@media only screen and (max-width: 767px) {
+    .form {
+      width: 100% !important;
+      height: 100vh !important;
+      margin: 0 !important;
+      border-radius: 0 !important;
+      box-shadow: none;
+    }
+    .form h1{
+        margin: 50px auto 20px !important;
+    }
+    p{
+        margin-bottom: 60px !important;
+    }
+    input[type="email"]{
+        margin-bottom: 30px !important;
+    }
+    input[type="submit"]{
+        margin-top: 40px !important;
+        margin-bottom: 20px !important;
+    }
+  }
+  
+
+body{
+    height: 100vh;  
+    background-image: url(Untitled\ design\ \(1\).png); 
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: #eeeeee;
+}
+
+
+.image:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+
+.form{
+    background-color: #fff;
+    width: 400px;
+    height: 530px;
+    position: relative;
+    margin: 100px auto;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    border: 1px solid rgb(205, 205, 205 , 0.5);
+    box-shadow:0 0 10px rgb(205, 205, 205 , 0.5);
+
+    
+    
+}
+
+h1{
+    font-family: sans-serif;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #0b0b0b;
+    width: 100px;
+    margin: 50px auto;
+    height: 25px;
+    position: relative;
+}
+h1:hover::after{
+    width: 100%;
+}
+
+h1::after{
+    position: absolute;
+    content: '';
+    background-color: #f48608;
+    display: inline-block;
+    width: 0;
+    height: 2px;
+    border-radius: 10px;
+    left: 50%;
+    top: 100%;
+    transition:width 0.3s ease ;
+    transform: translateX(-50%);
+    
+}
+
+
+
+
+
+
+p{
+    color: #0a0a0a;
+    text-align: center;
+    margin-bottom: 70px;
+    font-size: 10px;
+   
+
+}
+
+
+form{
+    padding-left: 25px;
+    
+}
+form input {
+    width: 350px;
+    height: 30px;
+    border: none;
+    border-radius: 2px;
+    background-color:#fff ;
+    
+}
+
+input[type="email"]{
+    margin-bottom: 20px;
+    border: 1px solid black;
+    font-size: 16px;
+    outline: none;
+    padding-left: 2px;
+}
+
+
+input[type="password"]{
+    margin-bottom: 1px;
+    border: 1px solid black;
+    font-size: 16px;
+    outline: none;
+    padding-left: 2px;
+
+}
+
+form a{
+    text-decoration: none;
+    font-size: 0.7rem;
+    color: #6b44f9;
+    
+}
+
+form a:hover{
+    color: blue;
+}
+
+input[type="submit"]{
+    background-color: rgb(80, 80, 245);
+    color: #fff;
+    border: 1px solid #3904fb;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
+
+input[type="submit"]:hover{
+    background-color: #3904fb;
+    
+}
+
+.voulez{
+    font-size: 0.8rem;
+    margin-top: 5px;
+    margin-left: 55px;
+
+}
+
+
+
+
+
+
+
+/*social-media*/
+.social{
+    width: 80%;
+    margin: 35px auto;
+    justify-content: center;
+}
+
+.social a{
+    display: inline-flex;
+    width: 40%;
+    height: 40px;
+    background-color:#f2f2f2;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px;
+    border-radius: 5px;
+    box-shadow: 0 2 2 rgb(0, 0, 0,0.5);
+
+}
+
+.social .fa-google{
+    font-size: 20px;
+    color: rgb(247, 110, 110);
+}
+.fa-facebook{
+    color: #3B5998;
+    font-size: 20px;
+}
+.fa-google:hover{
+    color: red;
+}
+.social a:hover{
+    background-color: #ddd;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
